@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/github.io">
+    <Router>
       <div className="App">
         <Navbar />
         <main>

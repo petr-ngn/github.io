@@ -5,14 +5,14 @@ This guide will help you deploy your React portfolio to GitHub Pages.
 ## 🚀 Quick Start
 
 ### 1. Repository Setup
-Your repository `petr-ngn/github.io` is configured as a **User Pages site**.
+Your repository `petr-ngn/petr-ngn.github.io` is configured as a **User Pages site**.
 
 Push your local code to GitHub:
 ```bash
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/petr-ngn/github.io.git
+git remote add origin https://github.com/petr-ngn/petr-ngn.github.io.git
 git push -u origin main
 ```
 
