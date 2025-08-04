@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/data-science-portfolio">
+    <Router>
       <div className="App">
         <Navbar />
         <main>
