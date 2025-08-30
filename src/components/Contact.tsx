@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaMapMarkerAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
@@ -123,12 +123,7 @@ const Contact: React.FC = () => {
       value: 'ngn.petr@gmail.com',
       link: 'mailto:ngn.petr@gmail.com'
     },
-    {
-      icon: <FaPhone />,
-      label: 'Phone',
-      value: '+420 720 583 685',
-      link: 'tel:+420720583685'
-    },
+
     {
       icon: <FaMapMarkerAlt />,
       label: 'Location',

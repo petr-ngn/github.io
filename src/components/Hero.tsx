@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import './Hero.css';
 
 interface SocialLink {
@@ -33,11 +33,6 @@ const Hero: React.FC = () => {
       url: 'mailto:ngn.petr@gmail.com',
       label: 'Email'
     },
-    {
-      icon: <FaPhone />,
-      url: 'tel:+420720583685',
-      label: 'Phone'
-    }
   ];
 
   return (

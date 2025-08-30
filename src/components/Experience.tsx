@@ -94,12 +94,6 @@ const Experience: React.FC = () => {
     }
   ];
 
-  const otherExperiences = [
-    { role: 'Financial Analyst', company: 'Deutsche Börse', period: '09/2020 - 02/2022' },
-    { role: 'Bank Guarantees Assistant', company: 'Raiffeisenbank', period: '11/2018 - 09/2020' },
-    { role: 'Ocean Freight Administrator', company: 'DHL Global Forwarding', period: '08/2018 - 01/2019' }
-  ];
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -184,25 +178,6 @@ const Experience: React.FC = () => {
               </div>
             </motion.div>
           ))}
-        </motion.div>
-
-        <motion.div
-          className="other-experience"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <h3>Other Experience</h3>
-          <div className="other-experience-list">
-            {otherExperiences.map((exp, index) => (
-              <div key={index} className="other-experience-item">
-                <span className="role">{exp.role}</span>
-                <span className="company">@ {exp.company}</span>
-                <span className="period">- {exp.period}</span>
-              </div>
-            ))}
-          </div>
         </motion.div>
       </div>
     </section>

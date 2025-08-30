@@ -137,58 +137,6 @@
   color: #004f90;
 }
 
-.other-experience {
-  margin-top: 4rem;
-  padding-top: 3rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.other-experience h3 {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: white;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.other-experience-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
-.other-experience-item {
-  padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
-}
-
-.other-experience-item:hover {
-  background: rgba(0, 79, 144, 0.1);
-  border-color: rgba(0, 79, 144, 0.3);
-  transform: translateY(-2px);
-}
-
-.other-experience-item .role {
-  display: block;
-  font-weight: 600;
-  color: white;
-  margin-bottom: 0.5rem;
-}
-
-.other-experience-item .company {
-  color: #004f90;
-  font-weight: 500;
-}
-
-.other-experience-item .period {
-  color: #888;
-  font-size: 0.9rem;
-}
-
 /* Responsive design */
 @media (max-width: 768px) {
   .experience {
@@ -222,9 +170,6 @@
     font-size: 1.2rem;
   }
 
-  .other-experience-list {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 480px) {
@@ -236,7 +181,4 @@
     padding-left: 1rem;
   }
 
-  .other-experience-item {
-    padding: 1rem;
-  }
 }
