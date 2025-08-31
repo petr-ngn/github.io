@@ -30,7 +30,7 @@ const App: React.FC = () => {
           className="loading-content"
         >
           <h2>Petr Nguyen</h2>
-          <p>Senior AI/ML Engineer</p>
+          <p>Senior AI & ML Engineer</p>
           <div className="loading-spinner"></div>
         </motion.div>
       </div>
