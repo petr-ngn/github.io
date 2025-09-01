@@ -6,6 +6,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 const App: React.FC = () => {
@@ -47,6 +48,7 @@ const App: React.FC = () => {
         <Education />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 };
