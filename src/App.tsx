@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+// import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
@@ -31,7 +32,7 @@ const App: React.FC = () => {
           className="loading-content"
         >
           <h2>Petr Nguyen</h2>
-          <p>Senior AI & ML Engineer</p>
+          <p>AI & ML Engineer</p>
           <div className="loading-spinner"></div>
         </motion.div>
       </div>
@@ -45,6 +46,7 @@ const App: React.FC = () => {
         <Hero />
         <About />
         <Experience />
+        {/*<Projects />*/}
         <Education />
         <Contact />
       </main>

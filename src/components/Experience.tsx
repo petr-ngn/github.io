@@ -22,7 +22,7 @@ const Experience: React.FC = () => {
       period: '05/2025 - present',
       type: 'Contractor',
       description: [
-        'Helping business to develop custom AI solutions, including predictive modelling, OCR, LLM agents, RAG systems, DevOps.'
+        'Helping business to develop custom AI solutions, including predictive modelling or OCR and LLM applications.'
       ],
       tools: 'Python, Azure, OpenAI, Terraform, Azure Functions, Azure App Services, GitLab, Azure Document Intelligence, Azure AI Vision'
     },

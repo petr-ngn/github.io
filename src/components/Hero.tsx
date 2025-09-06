@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="hero-subtitle"
             >
-              Senior AI & ML Engineer
+              AI & ML Engineer
             </motion.h2>
             
             <motion.p
